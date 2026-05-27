@@ -1,4 +1,4 @@
-# 🎙️ VoiceForge — Voice-Driven Accessibility Assistant
+# VoiceForge — Voice-Driven Accessibility Assistant
 
 > **Hackathon Submission** | One Man, An Entire System
 > Stack: **Omi** + **Qdrant** + **Lyzr**
@@ -11,7 +11,7 @@
 
 ---
 
-## 🌟 What is VoiceForge?
+## What is VoiceForge?
 
 VoiceForge is an autonomous, voice-first accessibility assistant that empowers people with disabilities to generate structured documents, fill forms, create summaries, and execute guided workflows — **entirely through voice commands**.
 
@@ -19,7 +19,7 @@ Traditional AI chatbots give you conversations. VoiceForge gives you **outputs y
 
 ---
 
-## 🧠 Architecture Overview
+##  Architecture Overview
 
 ```
 ┌──────────────────────────────────────────────────────────┐
@@ -56,7 +56,7 @@ Traditional AI chatbots give you conversations. VoiceForge gives you **outputs y
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-----------|---------|
@@ -70,7 +70,7 @@ Traditional AI chatbots give you conversations. VoiceForge gives you **outputs y
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -133,7 +133,7 @@ Open **http://localhost:5173** in your browser.
 
 ---
 
-## 🐳 Docker Compose (Full Stack)
+## Docker Compose (Full Stack)
 
 ```bash
 cp .env.example .env
@@ -149,7 +149,7 @@ Services started:
 
 ---
 
-## 🎯 Voice Commands
+##  Voice Commands
 
 | Say This | What Happens |
 |----------|-------------|
@@ -168,7 +168,7 @@ Services started:
 | Feature | Details |
 |---------|---------|
 | **Screen Reader** | Full ARIA labels, roles, live regions — NVDA + VoiceOver tested |
-| **Large Text** | 3 font size modes: medium / large / x-large (CSS variable system) |
+| **Large Text** | 3 font size modes: medium/large / x-large (CSS variable system) |
 | **High Contrast** | WCAG AAA contrast ratio in high contrast mode |
 | **Keyboard Navigation** | Every element reachable and operable via Tab / Enter |
 | **Voice-Only Mode** | Complete app usable with zero mouse or keyboard input |
@@ -181,7 +181,7 @@ Services started:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 voiceforge-accessibility/
@@ -229,7 +229,7 @@ voiceforge-accessibility/
 
 ---
 
-## 🧬 Qdrant Collections
+##  Qdrant Collections
 
 | Collection | Purpose | Vector Model |
 |-----------|---------|-------------|
@@ -242,7 +242,7 @@ Vector size: **384 dimensions**, Cosine similarity.
 
 ---
 
-## 🔌 Omi Integration
+## Omi Integration
 
 VoiceForge connects to Omi in two ways:
 
@@ -260,7 +260,7 @@ Works in Chrome and Edge. No extra hardware required.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|---------|-------------|
@@ -279,7 +279,7 @@ Full API docs available at **http://localhost:8000/docs** (Swagger UI).
 
 ---
 
-## 📄 Document Templates
+##  Document Templates
 
 Five built-in templates, all voice-fillable:
 
@@ -293,7 +293,7 @@ Five built-in templates, all voice-fillable:
 
 ---
 
-## 🏆 Judging Criteria
+##  Judging Criteria
 
 | Criteria | Our Implementation |
 |---------|-------------------|
@@ -306,7 +306,7 @@ Five built-in templates, all voice-fillable:
 
 ---
 
-## 🚢 Deployment
+##  Deployment
 
 ### Railway (Recommended)
 
@@ -321,7 +321,7 @@ railway up
 ### Render
 
 Set build command: `pip install -r requirements.txt`
-Set start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+Set start command: `uvicorn main: app --host 0.0.0.0 --port $PORT`
 
 ### Qdrant Cloud (Production DB)
 
@@ -331,7 +331,7 @@ Set start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feature/my-feature`
@@ -341,13 +341,13 @@ Set start command: `uvicorn main:app --host 0.0.0.0 --port $PORT`
 
 ---
 
-## 📜 License
+## License
 
 MIT License — free to use, modify, and distribute.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built with:
 - [Omi](https://omi.me) — Voice capture and memory
